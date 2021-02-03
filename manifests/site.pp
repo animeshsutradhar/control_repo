@@ -1,4 +1,5 @@
 node default{
+    include nginx
 }
 node 'master.node' {
     include role::master_server
