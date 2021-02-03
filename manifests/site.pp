@@ -1,12 +1,11 @@
 node default{
 }
-node 'master.node.vm'{
- include profile::base
- include profile::agent_nodes
+node 'master.node.vm' {
+    include role::master_server
 }
-node  /^web/{
- include role::app_server
+node  /^web/ {
+    include role::app_server
 }
-node  /^db/{
- include role::db_server
+node  /^db/ {
+    include role::db_server
 }
