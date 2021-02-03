@@ -1,7 +1,7 @@
 node default{
     include nginx
 }
-node 'master.node' {
+node 'ctos8srv02.asdcloud.com' {
     include role::master_server
 }
 node  /^web/ {
