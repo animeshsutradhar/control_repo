@@ -9,3 +9,10 @@ node  /^web/ {
 node  /^db/ {
     include role::db_server
 }
+node 'ctos7srv02.asdcloud.com' {
+    file { '/root/README':
+        ensure  =>  file,
+        content =>  "Welcome to ${fqdn}",
+        owner   =>  'root',
+    }
+}
