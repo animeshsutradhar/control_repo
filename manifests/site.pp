@@ -1,6 +1,6 @@
 node default{
 }
-node 'master.node.vm' {
+node 'master.node' {
     include role::master_server
 }
 node  /^web/ {
