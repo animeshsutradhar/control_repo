@@ -1,6 +1,6 @@
 node default{
 }
-node 'ctos8srv01.asdcloud.com' {
+node 'ctos7srv01.asdcloud.com' {
     include role::master_server
 }
 node  /^web/ {
