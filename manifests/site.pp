@@ -1,7 +1,8 @@
 node default{
 }
 node 'master.node.vm'{
- include site::role::master_server
+ include profile::base
+ include profile::agent_nodes
 }
 node  /^web/{
  include role::app_server
