@@ -1,5 +1,4 @@
 node default{
-    include nginx
 }
 node 'ctos8srv02.asdcloud.com' {
     include role::master_server
