@@ -1,3 +1,4 @@
+forge 'https://forgeapi.puppetlabs.com'
 mod 'puppet-nginx', '3.0.0'
 mod 'puppetlabs-stdlib', '6.6.0'
 mod 'puppetlabs-concat', '6.4.0'
