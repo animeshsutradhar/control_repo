@@ -17,5 +17,5 @@ node 'ctos7srv02.asdcloud.com' {
     }
 node  'minetest.puppet.vm' {
     include role::minecraft_server
-}
+    }
 }
