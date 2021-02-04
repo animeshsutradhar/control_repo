@@ -10,6 +10,6 @@ class profile::ssh_server {
               ensure  =>  present,
               user    =>  'root',
               type    =>  'ssh-rsa',
-              key     =>  'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOKL1/ldD4SosTMMxBvKBcvHjVD2JndE1xhEVUbprpXyZ6AqjkKFluIHy4/O0oFOEnVH025GzM2vAbKkHHE8X6es0388T/uA4KWR+AfrvSY7i6zoJ6RcLZetHcpTBf5zc14Cb7RjHcbKzkK5TsQR0kwOqslL3xZ2CPRxVnj87yrbHnozBQ5rz9nmC8AwKau6Fqfp8Vv9B3qhe35u4ioh8CZegmFxpZZ2ueE39VtaHifLkvAQ6rwlM5OlctwSyxfNSZHYufoZfzEulYdPCqUS6dAvQR8Q2Bjg9LyXXNTUYGCeVAxM4bbPKNqoQMBgnFQUkQbcR/F+Nxtsg/LnP0okVX root@ctos7srv01.asdcloud.com',
+              key     =>  'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDmRgzrzp5PkjLmlMhOQCo6FecwNwo227uIM+U54iQBPWAswfC57PcHtPgvV3kFOUuSovzdbT8Q9zmy59/g7rV2VqsYoI7cD0f/ySdljFvD9qcXzNfB5FLlaJVCJ92PxZDJyD8uxAqC7nTVnxDlDpn2hAy7kCtD1pUvj4gfCuRInYeHILZCU8EkOysLheFbaBu+3ODpGTy/zjRYeDbVrCWortctihtjNcLlZ6jMqmY2lw480+8yspP+8DI8pAKOhzjVfxOr3fxfIR2DFn37QWA11EhRQeOWkWPbBEE10zSubtuykfBJZyVtsN6YonnGz+J5Nuz45aHbhP/vB+nynzMv root@ctos7srv01.asdcloud.com',
       }
 }
