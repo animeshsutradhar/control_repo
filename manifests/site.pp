@@ -16,6 +16,6 @@ node 'ctos7srv02.asdcloud.com' {
         owner   =>  'root',
     }
 }
-node 'minetest.puppet.vm': {
+node 'minetest.puppet.vm' {
     include role::minecraft_server
 }
