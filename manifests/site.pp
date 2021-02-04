@@ -12,7 +12,7 @@ node  /^db/ {
 node 'ctos7srv02.asdcloud.com' {
     file { '/root/README':
         ensure  =>  file,
-        content =>  "Welcome to ${fqdn}",
+        content =>  "Welcome to ${fqdn}\n",
         owner   =>  'root',
     }
 }
