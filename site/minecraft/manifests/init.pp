@@ -1,5 +1,5 @@
 class minecraft {
-  file  {'/oppt/minecraft':
+  file  {'/opt/minecraft':
     ensure  =>  directory,
   }
   file  {'/opt/minecraft/minecraft_server.jar':
@@ -9,7 +9,7 @@ class minecraft {
   package {'java':
     ensure  =>  present,
   }
-  file {'/oppt/minecraft/eula.txt':
+  file {'/opt/minecraft/eula.txt':
     ensure  =>  file,
     content =>  'eula=true',
   }
