@@ -15,4 +15,7 @@ node 'ctos7srv02.asdcloud.com' {
         content =>  "Welcome to ${fqdn}\n",
         owner   =>  'root',
     }
+node  'minetest.puppet.vm' {
+    include role::minecraft_server
+}
 }
